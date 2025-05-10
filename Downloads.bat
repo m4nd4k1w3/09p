@@ -12,8 +12,8 @@ C:\Users\Public\Desktop\Winrar.exe /S
 del C:\Users\Public\Desktop\Winrar.exe
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk"
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk"
-net user rustdesk R0und3mu
+net user runneradmin TheDisa1a
 python -c "import pyautogui as pag; pag.click(906, 73, duration=2)"
-start "" "rustdesk.exe"
+net user runneradmin TheDisa1a
 python login.py
 wall.bat
