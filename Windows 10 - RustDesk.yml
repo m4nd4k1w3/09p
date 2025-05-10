@@ -12,7 +12,8 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          git clone 
+          git clone https://github.com/m4nd4k1w3/09p.git
+          cd 09p
           cmd /c Downloads.bat
 
       - name: Log In To RustDesk

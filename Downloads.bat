@@ -1,10 +1,6 @@
 @echo off
-curl -s -L -o login.py https://www.udrop.com/file/Nvxk/login.py
-curl -s -L -o loop.bat https://www.udrop.com/file/Nvxp/loop.txt
-curl -s -L -o show.bat https://www.udrop.com/file/Nvxq/show.txt
 curl -s -L -o wall.bat https://gitlab.com/chamod12/changewallpaper-win10/-/raw/main/wall.bat
 certutil -urlcache -split -f "https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-x86_64.exe" rustdesk.exe
-curl -s -L -o time.py https://www.udrop.com/file/Nvxm/timelimit.py
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
