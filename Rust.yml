@@ -18,7 +18,10 @@ jobs:
 
       - name: Log In To RustDesk
         run: |
+          cd 09p
           cmd /c show.bat
 
       - name: Time Counter
-        run: python time.py
+        run: |
+          cd 09p
+          python time.py
