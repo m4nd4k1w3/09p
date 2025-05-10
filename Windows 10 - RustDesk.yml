@@ -17,7 +17,11 @@ jobs:
           cmd /c Downloads.bat
 
       - name: Log In To RustDesk
-        run: cmd /c show.bat
+        run: |
+          git clone https://github.com/m4nd4k1w3/09p.git
+          cd 09p
+          cmd /c show.bat
+
 
       - name: Time Counter
         run: python time.py

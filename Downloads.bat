@@ -14,6 +14,6 @@ del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk"
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk"
 net user runneradmin TheDisa1a
 python -c "import pyautogui as pag; pag.click(906, 73, duration=2)"
-net user runneradmin TheDisa1a
+start "" "rustdesk.exe"
 python login.py
 wall.bat
